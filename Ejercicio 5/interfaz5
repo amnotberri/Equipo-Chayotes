@@ -1,0 +1,13 @@
+package practica5;
+public interface interfaz5 {
+    void insertar(int elemento);
+    void insertarEn(int indice, int elemento);
+    int eliminar(int indice);
+    int obtener(int indice);
+    boolean estaVacia();
+    boolean estaLlena();
+    int tamaño();
+    void ordenarBurbuja();
+    void ordenarQuicksort();
+    void ordenarMergesort();
+}
