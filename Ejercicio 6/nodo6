@@ -1,0 +1,9 @@
+public class nodo6 {
+    int valor;
+    nodo6 siguiente;
+
+    public nodo6(int valor) {
+        this.valor = valor;
+        this.siguiente = null;
+    }
+}
